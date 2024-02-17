@@ -1,1 +1,1 @@
-cons
+console.log("Hello from electron!");

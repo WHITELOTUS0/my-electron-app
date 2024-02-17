@@ -2,7 +2,7 @@
   "name": "my-electron-app",
   "version": "1.0.0",
   "description": "Electronjs simple app",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/WHITELOTUS0/my-electron-app/issues"
   },
-  "homepage": "https://github.com/WHITELOTUS0/my-electron-app#readme"
+  "homepage": "https://github.com/WHITELOTUS0/my-electron-app#readme",
+  "devDependencies": {
+    "electron": "^28.2.3"
+  }
 }

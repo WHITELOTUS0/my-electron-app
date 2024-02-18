@@ -24,6 +24,10 @@
       btn.addEventListener("click", () => {
         ipcRenderer.send("btn-clicked", input.value);
       });
+      
+      ipcRenderer.on("log", (event, arg) => {
+        console.log(arg);
+      });
     </script>
     <p>👋</p>
   </body>
